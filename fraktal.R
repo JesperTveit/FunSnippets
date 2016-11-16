@@ -5,7 +5,6 @@
 # Z[n+1] = P + Z[n]^4, for P in the interval [-w/2,w/2]x[-i*w/2,i*w/2]
 #
 # O(m^2 x n) computations - give it a few seconds to finish ;)
-#
 
 w <- 2.8  # interval size
 m <- 512  # image resolution 
