@@ -19,9 +19,6 @@ Zb <- matrix(0,m,m)
 Pa <- matrix((1/2 - c(1:m)/m)*w,m,m,TRUE)
 Pb <- matrix((1/2 - c(1:m)/m)*w,m,m,FALSE)
 
-# divergence 
-divrg <- matrix(FALSE,m,m)
-
 for(i in 1:n)
 {
   Za1 <- Za*Za - Zb*Zb
